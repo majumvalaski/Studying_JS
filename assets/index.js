@@ -28,3 +28,7 @@ const html1 = `
 
 document.body.innerHTML = html1;
 
+const smarties = 20;
+const kids = 3;
+const eachKidGets = Math.floor(smarties /kids);
+console.log(`Each Kid Gets ${eachKidGets}`);
