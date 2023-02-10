@@ -25,3 +25,6 @@ const html1 = `
     <p>${hello2}</p>
   </div>  
 `;
+
+document.body.innerHTML = html1;
+
