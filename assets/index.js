@@ -54,5 +54,20 @@ function calculateBill() {
     return total; //Allow us to store the result so we can access it using a variable
 }
 
-calculateBill();
+//const myTotal = calculateBill();
+//console.log(`Your total is $${myTotal}`);
+console.log(`Your total is $${calculateBill()}`);
+
+
+const bill = 200;
+const taxRate = 0.13;
+function calculateBill2() {
+  console.log("Running calculate bill!!");
+  const total = bill * (1 + taxRate);
+  return total;
+}
+console.log(calculateBill2());
+
+
+
 
