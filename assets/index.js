@@ -68,6 +68,15 @@ function calculateBill2() {
 }
 console.log(calculateBill2());
 
+function calculteBill3(bill2, taxRate2){
+  console.log("Running calculate bill function 3");
+  const total = bill2 * (1 + taxRate2);
+  return total;
+}
+
+const myTotal2 = calculteBill3(150, 0.15);
+console.log(myTotal2);
+
 
 
 
