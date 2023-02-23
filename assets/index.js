@@ -86,3 +86,5 @@ function yell(name3) {
   return `HEY ${name3.toUpperCase()}`; 
 }
 const heyUpper = yell('maju');
+
+const drUpper = yell(doctorize('maju'));
