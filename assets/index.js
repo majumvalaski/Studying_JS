@@ -77,6 +77,9 @@ function calculteBill3(bill2, taxRate2){
 const myTotal2 = calculteBill3(150, 0.15);
 console.log(myTotal2);
 
+function doctorize(name3) {
+  return `Dr. ${name3}`;
+}
 
 
 
