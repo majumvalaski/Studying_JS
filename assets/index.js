@@ -80,6 +80,6 @@ console.log(myTotal2);
 function doctorize(name3) {
   return `Dr. ${name3}`;
 }
-
+const theBestDr = doctorize('maju');
 
 
