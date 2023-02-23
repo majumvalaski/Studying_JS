@@ -82,4 +82,7 @@ function doctorize(name3) {
 }
 const theBestDr = doctorize('maju');
 
-
+function yell(name3) {
+  return `HEY ${name3.toUpperCase()}`; 
+}
+const heyUpper = yell('maju');
